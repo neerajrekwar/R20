@@ -2,12 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pinned Date</title>
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <script src="script.js"></script>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com"
+  crossorigin="">
+  <link href=
+  "https://fonts.googleapis.com/css2?family=Alata&amp;display=swap"
+  rel="stylesheet">
+  <title>R20</title>
 </head>
-<body>
-  <div id="pinnedDate"></div>
-  <script src="pinnedDate.js"></script>
+<body onload="startTime()">
+  <main>
+    <div>
+      <h3><q class="qoute">Do the last otherwise never
+      start.</q></h3>
+    </div>
+    <div>
+      <h1 class="r20">[R20]</h1>
+    </div><br>
+    <div class="txt_bx">
+      <span id="txt"></span>
+      <h2 id="txt1"></h2>
+    </div>
+    <div class="time_Box">
+      <div id="timeSince"></div>
+      <script>
+                // Set the since date (YYYY-MM-DD format)
+                const sinceDate = new Date('2021-04-22');
+
+                function updateSinceTime() {
+                    const now = new Date();
+                    const timeDifference = now - sinceDate;
+
+                    const secondsPassed = Math.floor(timeDifference / 1000);
+                    const minutesPassed = Math.floor(secondsPassed / 60);
+                    const hoursPassed = Math.floor(minutesPassed / 60);
+                    const daysPassed = Math.floor(hoursPassed / 24);
+
+                    const timeString = `${daysPassed} days, ${hoursPassed % 24} hours, ${minutesPassed % 60} minutes, ${secondsPassed % 60} seconds`;
+                    document.getElementById('timeSince').textContent = ` ❤️‍🩹🥀 : ${timeString}`;
+                }
+
+                // Initial update
+                updateSinceTime();
+
+                // Update every second
+                setInterval(updateSinceTime, 1000);
+      </script>
+    </div>
+  </main><!-- Cloudflare Pages Analytics -->
 </body>
 </html>
