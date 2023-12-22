@@ -42,9 +42,9 @@
                     const minutesPassed = Math.floor(secondsPassed / 60);
                     const hoursPassed = Math.floor(minutesPassed / 60);
                     const daysPassed = Math.floor(hoursPassed / 24);
-                    const yearsPassed = Math.floor(daysPassed / 12);
+                    const yearsPassed = Math.floor(daysPassed / 365);
 
-                    const timeString = `${yearsPassed} ${daysPassed % 12} days, ${hoursPassed % 24} hours, ${minutesPassed % 60} minutes, ${secondsPassed % 60} seconds`;
+                    const timeString = `${yearsPassed} y, ${daysPassed % 365} d, ${hoursPassed % 24} h, ${minutesPassed % 60} m, ${secondsPassed % 60} s`;
                     document.getElementById('timeSince').textContent = ` ❤️‍🩹🥀 : ${timeString}`;
                 }
 
