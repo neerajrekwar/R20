@@ -1,3 +1,115 @@
-*{
-  font-size:16px;
+* {
+  box-sizing: border-box;
+  font: 16px "Alata", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  /* border: 2px solid green; */
+}
+div {
+  /* border: 2px solid tomato; */
+  /* background: #404040; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  /* margin: 10px;
+  padding: 5px; */
+  border-radius: 3px;
+}
+.r20{
+    color: #fff;
+    background:#404040;
+    height: 44px;
+    width: 64px;
+    /* font-size: .5em; */
+}
+div h1, h2 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: small;
+  color: #fff;
+  background: #404040;
+  text-align: center;
+  font-size: .4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+.txt_bx {
+  font-size: 0.5em;
+  word-spacing: 0.1em;
+  letter-spacing: 0.5ch;
+  color: tomato;
+  /* color: #404040; */
+  background-origin: padding-box;
+  background-color: rgba(199, 199, 199, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 3px;
+  display: block;
+}
+span{
+  font-size: .5rem;
+  /* color: tomato; */
+  color: #404040;
+}
+
+/* .time_Box{
+    border: 2px solid yellowgreen;
+    height: 2rem;
+    width: auto;
+} */
+.qoute{
+    margin: 10px;
+  padding: 20px;
+}
+q {
+    color: tomato;
+    
+    max-width: 60%;
+}
+h3{
+    font-style: italic;
+    color: #404040;
+    font-size: .5em;
+}
+
+#timeSince{
+  /* border: 2px solid green; */
+  height: 44px;
+  width: auto;
+  color: #404040;
+  font-size: small;
+  display: flex;
+}
+
+.test-btn{
+  height: 3.7rem;
+  width: 7.3em;
+  border: none;
+  background-color: #404040;
+  color: #add8e6;
+  border-radius: 3px;
+}
+.test-btn:hover{
+  color: antiquewhite;
+  height: 3.6rem;
+  width: 7.2em;
 }
