@@ -83,6 +83,7 @@ title{
 .qoute{
     margin: 10px;
   padding: 20px;
+  text-align: left;
 }
 q {
     color: tomato;
