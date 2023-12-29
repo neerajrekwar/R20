@@ -99,12 +99,11 @@ h3{
   /* border: 2px solid green; */
   height: auto;
   width: auto;
-  color: #404040;
   font-size: 1.7em;
   display: flex;
   color: #353535;
 }
-#timeSince:hover:before {
+#timeSince:hover::before {
   color: green;
   
 }
@@ -117,6 +116,6 @@ h3{
   color: #add8e6;
   border-radius: 3px;
 }
-.test-btn:hover:after {
+.test-btn:hover::after {
   color: antiquewhite;
 }
