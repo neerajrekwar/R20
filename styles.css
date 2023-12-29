@@ -80,7 +80,7 @@ title{
     height: 2rem;
     width: auto;
 } */
-.qoute{
+h3 > .qoute{
     margin: 10px;
   padding: 20px;
   text-align: left;
