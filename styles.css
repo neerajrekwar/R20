@@ -103,12 +103,13 @@ h3{
   /* border: 2px solid green; */
   height: auto;
   width: auto;
-  font-size: 1em;
+  font-size: 0.8em;
   display: flex;
   color: #1E1E29;
+  font-weight: bold;
 }
-#timeSince:hover::before {
-  color: green;
+#timeSince:active{
+  color: transparent;
   
 }
 
