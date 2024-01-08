@@ -55,6 +55,10 @@ h1 {
   justify-items: center;
   align-content: center;
 }
+
+#txt{
+  color: #1E1E29;
+}
 .txt_bx {
   font-size: 0.5em;
   word-spacing: 0.3em;
