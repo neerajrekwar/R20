@@ -7,7 +7,7 @@ function screen() {
   myWidth = window.innerWidth;
   myHeight = window.innerHeight;
 
-  document.getElementById("screen-fit").innerHTML =
+  document.getElementById("screen").innerHTML =
     "Screen: " + myWidth + "x" + myHeight + " px";
 };
 
