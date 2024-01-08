@@ -28,9 +28,9 @@ div {
 }
 .r20{
     color: #fff;
-    background:#404040;
+    background:#1E1E29;
     height: 44px;
-    width: 64px;
+    width: 80px;
   margin-top: 50px;
 font-size: 16px;
 
@@ -55,9 +55,9 @@ h1 {
 }
 .txt_bx {
   font-size: 0.5em;
-  word-spacing: 0.1em;
+  word-spacing: 0.3em;
   letter-spacing: 0.5ch;
-  color: tomato;
+  color: #FF674D;
   /* color: #404040; */
   background-origin: padding-box;
   background-color: rgba(199, 199, 199, 0.4);
@@ -87,7 +87,7 @@ div h3 q .qoute{
   text-align: left;
 }
 q {
-    color: tomato;
+    color: #FF674D;
     
     max-width: 60%;
 }
@@ -103,7 +103,7 @@ h3{
   width: auto;
   font-size: 1em;
   display: flex;
-  color: #353535;
+  color: #1E1E29;
 }
 #timeSince:hover::before {
   color: green;
